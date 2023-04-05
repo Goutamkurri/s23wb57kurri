@@ -3,7 +3,9 @@
 This is my README File
 Link to Remote Render server - https://s23wb57kurri.onrender.com
 
-My class is Racecar 
+My class is Racecar
+
+Attributes: Driver(string), Constructor(string), and position(number)
 | Driver      | Constructor | Ranking     |
 | :---:      |    :----:   |         :---: |
 | Max Verstappen   | Red Bull       | 1   |
