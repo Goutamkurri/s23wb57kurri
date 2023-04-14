@@ -26,9 +26,9 @@ exports.racecar_create_post = async function(req, res) {
     // Even though bodies can be in many different formats, we will be picky
     // and require that it be a json object
     // {"racecar_type":"goat", "cost":12, "size":"large"}
-    document.racecar_type = req.body.racecar_type;
-    document.cost = req.body.cost;
-    document.size = req.body.size;
+    document.driver = req.body.driver;
+    // document.constructor = req.body.constructor;
+    document.ranking = req.body.ranking;
     try{
     let result = await document.save();
     res.send(result);
